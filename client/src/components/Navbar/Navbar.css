@@ -1,0 +1,23 @@
+.nav-container{
+    width: 100vw;
+    height: 54px;
+    background-image: linear-gradient( to right ,#5fadfb,  #9084fa);
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+}
+.nav-container>ul{
+    display: flex;
+    flex-direction: row;
+    width: 23%;
+    
+    padding: 10px;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 10px 40px;
+}
+.nav-container>ul>li .nav-item{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}

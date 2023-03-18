@@ -1,0 +1,32 @@
+.main-container{
+    width: 100vw;
+    
+  }
+  
+  .search-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 25px auto;
+  }
+  .search-container>input{
+    width: 80%;
+    height: 33px;
+    font-size: 14px;
+    margin: 0 10px;
+    border: 1px solid grey;
+    outline: none;
+    border-radius: 5px;
+    padding: 0 12px;
+  }
+  .search-container>button{
+    width: 80px;
+    border-radius: 8px;
+    outline: none;
+    background-image: linear-gradient( to right ,#5fadfb,  #9084fa);
+    color: white;
+    font-weight: bold;
+    border: none;
+  }
+  
